@@ -46,7 +46,7 @@ React, Bulma CSS framework
 
 ## Backend
 
-Node.js server (Express), [`jsonwebtoken`](https://www.npmjs.com/package/jsonwebtoken) and [`bcrypt`](https://www.npmjs.com/package/bcrypt) for authentication, [`multer`](https://www.npmjs.com/package/multer) for form data handling, MongoDB with Mongoose ORM library
+Node.js server (Express), [`jsonwebtoken`](https://www.npmjs.com/package/jsonwebtoken) and [`bcrypt`](https://www.npmjs.com/package/bcrypt) for authentication, [`multer`](https://www.npmjs.com/package/multer) for form data handling, MongoDB with Mongoose ODM library
 
 # Contributors
 
