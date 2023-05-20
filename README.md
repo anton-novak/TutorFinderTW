@@ -34,7 +34,7 @@ To start the frontend server run `npm start` command from the top of the `client
 
 By default, the frontend connects to `http://localhost:8080`. If you wish to use a different port, edit the `env.ts` file in `client/src` directory.
 
-In the `mocks` directory you will find a `json` file with four user profiles: one student and three tutors. You can start the app and load this file into your MongoDB and copy the `uploads` directory into `server/src` directory to display images for these profiles. `Password1` is the password for all the mock profiles.
+In the `mocks` directory you will find a `json` file with seventeen user profiles: eight students and nine tutors. Once you have started the app, in the same directory run `node fillMockUsers.js` to automtaically load the database with the mock data. Copy the `uploads` directory into `server/src` directory to display images for these profiles. `Password1` is the password for all the mock profiles.
 
 # Tech stack
 
