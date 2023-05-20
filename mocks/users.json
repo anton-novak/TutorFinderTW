@@ -1,113 +1,415 @@
-[{
-  "_id": {
-    "$oid": "6468847aebe0172324bec18f"
+[
+  {
+    "name": "Omar Hassan",
+    "email": "student@email.com",
+    "type": "student",
+    "password": "$2b$10$I6PSaS3TR61FK/1p4dCkPuq8AA8gKPAG7bpHpFlZmXa59FIZWx02u",
+    "isComplete": true,
+    "picPath": "uploads\\1d337c5395f7b7050bf02aad06c578b3",
+    "age": 21,
+    "selfIntroduction": "This is a mock student record."
   },
-  "name": "Omar Hassan",
-  "email": "student@email.com",
+  {
+    "name": "John Smith",
+    "email": "tutor1@email.com",
+    "type": "tutor",
+    "password": "$2b$10$w61BOr/wUREBRiM9RU/LCuoufJDtscwZkrjHb.7CmcHFpbWjABhSO",
+    "isComplete": true,
+    "picPath": "uploads\\b0ba2622709ba438eadfa85503efc3f4",
+    "age": 39,
+    "selfIntroduction": "Introducing John Smith, a highly skilled and dedicated martial arts tutor with years of experience in various disciplines. With a deep passion for martial arts and a commitment to sharing its profound benefits, Master John offers personalized training sessions tailored to your goals and abilities. Whether you're a beginner looking to improve self-defense skills, an intermediate practitioner aiming to refine techniques, or an advanced student seeking to master a specific style, Master John has the expertise to guide you on your martial arts journey. With a strong emphasis on discipline, respect, and mindfulness, Master John not only focuses on physical techniques but also cultivates mental strength and personal growth. Through a combination of rigorous training, practical applications, and insightful teachings, Master Hassan ensures that each session is both challenging and rewarding. Join Master John's classes and embark on a transformative martial arts experience that will enhance your self-confidence, instill discipline, and promote overall well-being.",
+    "tutorDetails": {
+      "userId": "646886d2ebe0172324bec25e",
+      "subjects": [
+        {
+          "subject": "Arts",
+          "branches": [
+            {
+              "branch": "Martial arts",
+              "hourlyRate": 300
+            }
+          ]
+        }
+      ],
+      "inPerson": false,
+      "remote": true,
+      "location": "London"
+    }
+  },
+  {
+    "name": "Mae Ling",
+    "email": "tutor2@email.com",
+    "type": "tutor",
+    "password": "$2b$10$egmLTrIDnQ6OgeMh64ExJOn6u1/Gmo8LMgXUmInpJRsF8mToc8Tk2",
+    "isComplete": true,
+    "picPath": "uploads\\22c2cf1c755189cd0f17c9a8c64b81c1",
+    "age": 25,
+    "selfIntroduction": "Introducing Mae, a skilled and enthusiastic tutor specializing in teaching Chinese language and culture. With extensive experience and a deep understanding of Mandarin, Mae is passionate about helping students develop their proficiency in one of the world's most widely spoken languages. Whether you're a beginner or looking to advance your existing skills, Mae designs engaging and interactive lessons tailored to your specific needs and learning style. Through a combination of practical exercises, immersive conversations, and cultural insights, Mae provides a comprehensive learning experience that goes beyond just language acquisition. Patient, encouraging, and adaptable, Mae creates a supportive atmosphere that empowers students to confidently embrace the complexities of Chinese characters, tones, and grammar. Join Mae's classes and embark on a fascinating journey into the rich traditions and modern nuances of Chinese language and culture.",
+    "tutorDetails": {
+      "userId": "64688769c8da326cd06500d2",
+      "subjects": [
+        {
+          "subject": "Education and Teaching",
+          "branches": [
+            {
+              "branch": "Chinese",
+              "hourlyRate": 600
+            }
+          ]
+        }
+      ],
+      "inPerson": true,
+      "remote": false,
+      "location": "Paris"
+    }
+  },
+  {
+    "name": "Charles Cobb",
+    "email": "tutor3@email.com",
+    "type": "tutor",
+    "password": "$2b$10$b3Lm0H73sb6pDBm19iAEeuQR4aZAG/fbUAjsw/Pio7fdDO.Yl6wAe",
+    "isComplete": true,
+    "picPath": "uploads\\e1775d74edcdb5c39528114d98b8dfdc",
+    "age": 42,
+    "selfIntroduction": "Introducing Charles Cobb, a seasoned and knowledgeable tutor specializing in the field of accounting. With a wealth of experience in financial analysis, tax regulations, and managerial accounting, Charles is dedicated to helping students grasp the intricacies of this vital discipline. Whether you're studying accounting as part of your academic curriculum or seeking to enhance your professional skills, Charles provides comprehensive and personalized tutoring sessions tailored to your specific needs. With a patient and methodical teaching approach, he breaks down complex concepts into understandable terms, ensuring that you gain a solid foundation in accounting principles. From balancing financial statements to analyzing profit and loss statements, Charles guides you through real-world examples and practical exercises to strengthen your analytical skills. His commitment to your success extends beyond the tutoring sessions, as he offers ongoing support and resources to reinforce your learning. Join Charles Cobb's tutoring sessions and unlock your potential in the fascinating world of accounting, gaining the skills necessary for academic achievement or professional advancement.",
+    "tutorDetails": {
+      "userId": "64688907c8da326cd06500ec",
+      "subjects": [
+        {
+          "subject": "Business and Economics",
+          "branches": [
+            {
+              "branch": "Accounting",
+              "hourlyRate": 1000
+            }
+          ]
+        }
+      ],
+      "inPerson": true,
+      "remote": true,
+      "location": "Berlin"
+    }
+  }, {
+  "name": "Jane Doe",
+  "email": "student1@email.com",
   "type": "student",
-  "password": "$2b$10$I6PSaS3TR61FK/1p4dCkPuq8AA8gKPAG7bpHpFlZmXa59FIZWx02u",
-  "isComplete": true,
-  "picPath": "uploads\\1d337c5395f7b7050bf02aad06c578b3",
-  "__v": 0,
-  "age": 21,
-  "selfIntroduction": "This is a mock student record."
-},{
-  "_id": {
-    "$oid": "646886d2ebe0172324bec25e"
-  },
-  "name": "John Smith",
-  "email": "tutor1@email.com",
-  "type": "tutor",
   "password": "$2b$10$w61BOr/wUREBRiM9RU/LCuoufJDtscwZkrjHb.7CmcHFpbWjABhSO",
   "isComplete": true,
-  "picPath": "uploads\\b0ba2622709ba438eadfa85503efc3f4",
-  "__v": 0,
-  "age": 39,
-  "selfIntroduction": "Introducing John Smith, a highly skilled and dedicated martial arts tutor with years of experience in various disciplines. With a deep passion for martial arts and a commitment to sharing its profound benefits, Master John offers personalized training sessions tailored to your goals and abilities. Whether you're a beginner looking to improve self-defense skills, an intermediate practitioner aiming to refine techniques, or an advanced student seeking to master a specific style, Master John has the expertise to guide you on your martial arts journey. With a strong emphasis on discipline, respect, and mindfulness, Master John not only focuses on physical techniques but also cultivates mental strength and personal growth. Through a combination of rigorous training, practical applications, and insightful teachings, Master Hassan ensures that each session is both challenging and rewarding. Join Master John's classes and embark on a transformative martial arts experience that will enhance your self-confidence, instill discipline, and promote overall well-being.",
+  "age": 25,
+  "selfIntroduction": "Hello, I'm Jane Doe, an enthusiastic student eager to learn new subjects and expand my knowledge. I believe in the power of education and the transformative effects it can have on our lives. I'm open to exploring various fields of study and working with dedicated tutors who can guide me on this exciting journey. Whether it's mathematics, literature, science, or any other subject, I'm committed to putting in the effort and making the most out of every learning opportunity. Let's embark on this educational adventure together!",
+  "studentDetails": {
+    "userId": "62be245b7802e93a1a5d85f9",
+    "interests": [
+      "Mathematics",
+      "Literature",
+      "Science"
+    ],
+    "location": "New York"
+  }
+}, {
+  "name": "Emily Anderson",
+  "email": "emilyanderson@example.com",
+  "type": "student",
+  "password": "$2b$10$N32cbGBY6XN9x8eV2aMLtOhpMss9Fh9nt0SOzzkbRFv7l3M.eP6Ey",
+  "isComplete": true,
+  "age": 20,
+  "selfIntroduction": "Hello, I'm Emily Anderson, a curious and dedicated student ready to dive into the world of knowledge. I'm passionate about a wide range of subjects, including history, literature, and psychology. I believe that learning is a lifelong journey, and I'm excited to collaborate with knowledgeable tutors who can help me expand my horizons. Let's embark on an educational adventure together and uncover the wonders of the world!",
+  "studentDetails": {
+    "userId": "b33f9a442e10c9e3e8aeb889",
+    "interests": [
+      "History",
+      "Literature",
+      "Psychology"
+    ],
+    "location": "San Francisco"
+  }
+},{
+  "name": "William Thompson",
+  "email": "williamthompson@example.com",
+  "type": "tutor",
+  "password": "$2b$10$C4RENSsz2xIRX8uSDbLR1O4WDbGvhG7t0pqJkHTskR0AIQTM9SzYi",
+  "isComplete": true,
+  "age": 45,
+  "selfIntroduction": "Greetings! I'm William Thompson, an experienced tutor with a passion for mathematics and science. With a solid background in engineering, I'm adept at simplifying complex concepts and making them accessible to students of all levels. I firmly believe that problem-solving skills and critical thinking are essential in today's world. Through interactive and engaging sessions, I aim to empower my students with the knowledge and skills they need to excel in these subjects. Let's embark on a mathematical and scientific journey together!",
   "tutorDetails": {
-    "userId": "646886d2ebe0172324bec25e",
+    "userId": "ec0a6f2e53b798fc2e0b6f1b",
     "subjects": [
       {
-        "subject": "Arts",
+        "subject": "Science",
         "branches": [
           {
-            "branch": "Martial arts",
-            "hourlyRate": 300
+            "branch": "Physics",
+            "hourlyRate": 250
+          },
+          {
+            "branch": "Chemistry",
+            "hourlyRate": 250
+          }
+        ]
+      },
+      {
+        "subject": "Mathematics",
+        "branches": [
+          {
+            "branch": "Algebra",
+            "hourlyRate": 200
+          },
+          {
+            "branch": "Geometry",
+            "hourlyRate": 200
           }
         ]
       }
     ],
-    "inPerson": false,
+    "inPerson": true,
     "remote": true,
-    "location": "London",
-    "_id": {
-      "$oid": "646886f6ebe0172324bec263"
-    }
+    "location": "Boston"
   }
 },{
-  "_id": {
-    "$oid": "64688769c8da326cd06500d2"
-  },
-  "name": "Mae Ling",
-  "email": "tutor2@email.com",
-  "type": "tutor",
-  "password": "$2b$10$egmLTrIDnQ6OgeMh64ExJOn6u1/Gmo8LMgXUmInpJRsF8mToc8Tk2",
+  "name": "Sophia Rodriguez",
+  "email": "sophiarodriguez@example.com",
+  "type": "student",
+  "password": "$2b$10$7TtCmcegW9V1qRXb61A6Qe9lp4F.G3kXlYRJmUhCYazMi4m5XvR1S",
   "isComplete": true,
-  "picPath": "uploads\\22c2cf1c755189cd0f17c9a8c64b81c1",
-  "__v": 0,
-  "age": 25,
-  "selfIntroduction": "Introducing Mae, a skilled and enthusiastic tutor specializing in teaching Chinese language and culture. With extensive experience and a deep understanding of Mandarin, Mae is passionate about helping students develop their proficiency in one of the world's most widely spoken languages. Whether you're a beginner or looking to advance your existing skills, Mae designs engaging and interactive lessons tailored to your specific needs and learning style. Through a combination of practical exercises, immersive conversations, and cultural insights, Mae provides a comprehensive learning experience that goes beyond just language acquisition. Patient, encouraging, and adaptable, Mae creates a supportive atmosphere that empowers students to confidently embrace the complexities of Chinese characters, tones, and grammar. Join Mae's classes and embark on a fascinating journey into the rich traditions and modern nuances of Chinese language and culture.",
+  "age": 22,
+  "selfIntroduction": "Hi there! I'm Sophia Rodriguez, a passionate student eager to explore the realms of science and technology. From coding to artificial intelligence, I find joy in unraveling the mysteries of the digital world. I'm seeking dedicated tutors who can help me navigate the ever-evolving landscape of technology and guide me in developing practical skills. Let's embark on this exciting journey together and unlock the potential of tomorrow!",
+  "studentDetails": {
+    "userId": "d8a710123624e8d873134dbf",
+    "interests": [
+      "Computer Science",
+      "Artificial Intelligence",
+      "Programming"
+    ],
+    "location": "Seattle"
+  }
+},{
+  "name": "Daniel Clark",
+  "email": "danielclark@example.com",
+  "type": "tutor",
+  "password": "$2b$10$Z8sLToIX1EpzhtQk8qg9Ye7jFuKPCum.eybvzv7TSs6yC/haxH0JG",
+  "isComplete": true,
+  "age": 36,
+  "selfIntroduction": "Hello, I'm Daniel Clark, a dedicated tutor with expertise in English literature and writing. I believe in the power of words to transform lives and shape perspectives. Through engaging discussions and immersive reading experiences, I strive to cultivate a deep appreciation for literature in my students. Whether it's analyzing classic works or honing writing skills, I'm committed to nurturing creativity and critical thinking. Let's embark on a literary adventure and discover the wonders of language together!",
   "tutorDetails": {
-    "userId": "64688769c8da326cd06500d2",
+    "userId": "12f8c34f2747e2cc978f8b6a",
     "subjects": [
       {
-        "subject": "Education and Teaching",
+        "subject": "English",
         "branches": [
           {
-            "branch": "Chinese",
-            "hourlyRate": 600
+            "branch": "Literature",
+            "hourlyRate": 200
+          },
+          {
+            "branch": "Writing",
+            "hourlyRate": 200
           }
         ]
       }
     ],
     "inPerson": true,
     "remote": false,
-    "location": "Paris",
-    "_id": {
-      "$oid": "646887f5c8da326cd06500d7"
-    }
+    "location": "Chicago"
+  }
+}, {
+  "name": "Olivia Lee",
+  "email": "olivialeee@example.com",
+  "type": "student",
+  "password": "$2b$10$K8S2HfCE4O14fSptmmF3NuotSvSm/FWmG1Qvf9sSYgSwv14dDV1Re",
+  "isComplete": true,
+  "age": 19,
+  "selfIntroduction": "Hi, I'm Olivia Lee, a passionate student with a deep interest in environmental science and sustainability. I believe that preserving our planet is of utmost importance for future generations. I'm seeking knowledgeable tutors who can guide me in understanding environmental issues, developing sustainable practices, and making a positive impact. Together, let's explore the wonders of nature and work towards creating a greener and more sustainable world!",
+  "studentDetails": {
+    "userId": "a3b5d76129e21463f0c8876d",
+    "interests": [
+      "Environmental Science",
+      "Sustainability",
+      "Conservation"
+    ],
+    "location": "Los Angeles"
   }
 },{
-  "_id": {
-    "$oid": "64688907c8da326cd06500ec"
-  },
-  "name": "Charles Cobb",
-  "email": "tutor3@email.com",
+  "name": "Matthew Turner",
+  "email": "matthewturner@example.com",
   "type": "tutor",
-  "password": "$2b$10$b3Lm0H73sb6pDBm19iAEeuQR4aZAG/fbUAjsw/Pio7fdDO.Yl6wAe",
+  "password": "$2b$10$F7nqCv7E7lJfSg7LLOo8d.CP8stUaMj8J7XDMTnZ0e2CpkBhXjVsm",
   "isComplete": true,
-  "picPath": "uploads\\e1775d74edcdb5c39528114d98b8dfdc",
-  "__v": 0,
-  "age": 42,
-  "selfIntroduction": "Introducing Charles Cobb, a seasoned and knowledgeable tutor specializing in the field of accounting. With a wealth of experience in financial analysis, tax regulations, and managerial accounting, Charles is dedicated to helping students grasp the intricacies of this vital discipline. Whether you're studying accounting as part of your academic curriculum or seeking to enhance your professional skills, Charles provides comprehensive and personalized tutoring sessions tailored to your specific needs. With a patient and methodical teaching approach, he breaks down complex concepts into understandable terms, ensuring that you gain a solid foundation in accounting principles. From balancing financial statements to analyzing profit and loss statements, Charles guides you through real-world examples and practical exercises to strengthen your analytical skills. His commitment to your success extends beyond the tutoring sessions, as he offers ongoing support and resources to reinforce your learning. Join Charles Cobb's tutoring sessions and unlock your potential in the fascinating world of accounting, gaining the skills necessary for academic achievement or professional advancement.",
+  "age": 28,
+  "selfIntroduction": "Greetings! I'm Matthew Turner, a dedicated music tutor with a passion for helping students unleash their musical potential. I have years of experience teaching various instruments, including guitar, piano, and drums. My teaching style combines technical instruction with creative exploration, allowing students to develop their unique musical voice. Whether you're a beginner or an experienced musician looking to refine your skills, I'm here to guide you on your musical journey. Let's create beautiful melodies together!",
   "tutorDetails": {
-    "userId": "64688907c8da326cd06500ec",
+    "userId": "bf7c29e96dabf9330c0bca29",
     "subjects": [
       {
-        "subject": "Business and Economics",
+        "subject": "Music",
         "branches": [
           {
-            "branch": "Accounting",
-            "hourlyRate": 1000
+            "branch": "Guitar",
+            "hourlyRate": 150
+          },
+          {
+            "branch": "Piano",
+            "hourlyRate": 150
+          },
+          {
+            "branch": "Drums",
+            "hourlyRate": 150
           }
         ]
       }
     ],
     "inPerson": true,
     "remote": true,
-    "location": "Berlin",
-    "_id": {
-      "$oid": "64688939c8da326cd06500f1"
-    }
+    "location": "Austin"
   }
-}]
+}, {
+  "name": "Ethan Walker",
+  "email": "ethanwalker@example.com",
+  "type": "student",
+  "password": "$2b$10$YEWEDMmS0o8Ms6xfSLIOX.7L9cCB8cM.OsgFGBzDwfmID17qJbXSW",
+  "isComplete": true,
+  "age": 23,
+  "selfIntroduction": "Hey there! I'm Ethan Walker, an aspiring entrepreneur looking to acquire essential business skills and knowledge. I'm passionate about innovation, startups, and the world of business. I'm seeking experienced mentors who can guide me in developing a strong entrepreneurial mindset, understanding market dynamics, and acquiring practical business strategies. Let's collaborate and build the foundation for a successful business venture!",
+  "studentDetails": {
+    "userId": "b4a3f7696d29a14e6a42d119",
+    "interests": [
+      "Entrepreneurship",
+      "Business",
+      "Innovation"
+    ],
+    "location": "New York"
+  }
+}, {
+  "name": "Liam Martinez",
+  "email": "liammartinez@example.com",
+  "type": "student",
+  "password": "$2b$10$tYtTo57NG3GNDI.qvnkxiOcltEx4pLj1Y7GsVj1AB7jCQ.yRkZSb6",
+  "isComplete": true,
+  "age": 18,
+  "selfIntroduction": "Hi, I'm Liam Martinez, a curious and creative student with a passion for art and design. I believe that visual expression is a powerful tool for communication and self-discovery. I'm seeking mentors who can guide me in exploring different art forms, developing my artistic skills, and understanding the rich history of art. Let's unleash our creativity and embark on an artistic journey together!",
+  "studentDetails": {
+    "userId": "8f54321a0b1c",
+    "interests": [
+      "Art",
+      "Design",
+      "Painting"
+    ],
+    "location": "San Francisco"
+  }
+},{
+  "name": "Harper Phillips",
+  "email": "harperphillips@example.com",
+  "type": "tutor",
+  "password": "$2b$10$xF71jyU0XwB4jY7RztbCme4sXvO7FcBYGAPfE2mcY6u3wHvAT8Azu",
+  "isComplete": true,
+  "age": 31,
+  "selfIntroduction": "Hello, I'm Harper Phillips, an experienced mathematics tutor with a passion for helping students overcome their fear of numbers and develop strong problem-solving skills. I enjoy breaking down complex concepts into simple, manageable steps and fostering a deep understanding of mathematical principles. Whether it's algebra, calculus, or geometry, I'm dedicated to guiding my students toward success and instilling a love for mathematics. Let's unlock the beauty of numbers together!",
+  "tutorDetails": {
+    "userId": "d6e5f4c3b2a1",
+    "subjects": [
+      {
+        "subject": "Mathematics",
+        "branches": [
+          {
+            "branch": "Algebra",
+            "hourlyRate": 160
+          },
+          {
+            "branch": "Calculus",
+            "hourlyRate": 160
+          },
+          {
+            "branch": "Geometry",
+            "hourlyRate": 160
+          }
+        ]
+      }
+    ],
+    "inPerson": true,
+    "remote": true,
+    "location": "Seattle"
+  }
+},  {
+  "name": "Emma Collins",
+  "email": "emmacollins@example.com",
+  "type": "student",
+  "password": "$2b$10$FuxXzWyP4k2G1zL7ssFT/eHL6.Vy9xARbAb5I6dK.X/mhhaEs.y4a",
+  "isComplete": true,
+  "age": 20,
+  "selfIntroduction": "Hi, I'm Emma Collins, a dedicated student pursuing a degree in psychology. I'm fascinated by the human mind, behavior, and the mysteries of consciousness. I'm looking for mentors who can guide me in understanding psychological theories, research methods, and practical applications. Let's delve into the fascinating world of psychology together and unravel the complexities of the human psyche!",
+  "studentDetails": {
+    "userId": "3e2d1c0b9a8f",
+    "interests": [
+      "Psychology",
+      "Behavior",
+      "Consciousness"
+    ],
+    "location": "Chicago"
+  }
+},{
+  "name": "Mia Hill",
+  "email": "miahill@example.com",
+  "type": "tutor",
+  "password": "$2b$10$6NW/HnMib8YcCDog.K4DjOK9hz7wSd/ZwPD4klHDscMJN8B2iirBO",
+  "isComplete": true,
+  "age": 26,
+  "selfIntroduction": "Hello! I'm Mia Hill, an enthusiastic biology tutor passionate about sharing my love for the natural world. I enjoy exploring the wonders of life through the lens of biology and helping students develop a solid foundation in biological concepts. From cell biology to ecology, I'm here to guide you in understanding the intricate workings of the living world. Let's embark on a scientific journey together!",
+  "tutorDetails": {
+    "userId": "7a8b9c0d1e2f",
+    "subjects": [
+      {
+        "subject": "Biology",
+        "branches": [
+          {
+            "branch": "Cell Biology",
+            "hourlyRate": 140
+          },
+          {
+            "branch": "Ecology",
+            "hourlyRate": 140
+          },
+          {
+            "branch": "Genetics",
+            "hourlyRate": 140
+          }
+        ]
+      }
+    ],
+    "inPerson": false,
+    "remote": true,
+    "location": "Denver"
+  }
+}, {
+  "name": "Olivia Wright",
+  "email": "oliviawright@example.com",
+  "type": "tutor",
+  "password": "$2b$10$wTbMh3ETE3yOJK7I2UgYRuC/38FEtVGrlA7xgUEHOC/Ggd0AR6rui",
+  "isComplete": true,
+  "age": 29,
+  "selfIntroduction": "Greetings! I'm Olivia Wright, an experienced English tutor dedicated to helping students enhance their language skills. I believe that effective communication is key to success in various aspects of life. I offer personalized lessons tailored to each student's needs, focusing on grammar, vocabulary, and fluency. Whether you're preparing for exams or aiming to improve your conversational English, I'm here to support and guide you on your language learning journey. Let's embark on this linguistic adventure together!",
+  "tutorDetails": {
+    "userId": "5a4b3c2d1e0f",
+    "subjects": [
+      {
+        "subject": "English",
+        "branches": [
+          {
+            "branch": "Grammar",
+            "hourlyRate": 120
+          },
+          {
+            "branch": "Vocabulary",
+            "hourlyRate": 120
+          },
+          {
+            "branch": "Conversation",
+            "hourlyRate": 120
+          }
+        ]
+      }
+    ],
+    "inPerson": true,
+    "remote": true,
+    "location": "New York"
+  }
+}
+]
