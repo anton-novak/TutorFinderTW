@@ -40,19 +40,27 @@ export default function LogInModal({ toggleLoginModal, toggleLogin }: Props) {
         credentials
       )
         .then(() => {
-          toggleLogin();
           toggleLoginModal();
           if (sessionStorage.getItem('isComplete') === 'true') {
+            toggleLogin();
             if (sessionStorage.getItem('type') === 'tutor') {
               navigate('/messages');
             } else {
               navigate('/tutors');
             }
+          } else if (sessionStorage.length > 0) {
+            toggleLogin();
+            sessionStorage.getItem('type') === 'tutor' ? navigate('/tutorDetailsForm') : null;
+            sessionStorage.getItem('type') === 'student' ? navigate('/studentDetailsForm'): null;
           } else {
-            sessionStorage.getItem('type') === 'tutor' ? navigate('/tutorDetailsForm') : navigate('/studentDetailsForm');
+            window.alert('Login failed: invalid credentials');
+            navigate('/');
           }
-          window.location.reload();
         })
+        .catch((error) => {
+          console.error(error);
+          window.alert('Login failed');
+        });
     } catch (error) {
       console.error(error);
       window.alert('Login failed');

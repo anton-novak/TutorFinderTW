@@ -1,0 +1,44 @@
+.svg-logo {
+    min-width: 30vw;
+    max-width: 40vw;
+}
+
+.animated-gradient {
+    background: linear-gradient(269deg, #25358e, #ffffff);
+    background-size: 400% 400%;
+
+    -webkit-animation: HeroGradient 20s ease infinite;
+    -moz-animation: HeroGradient 20s ease infinite;
+    animation: HeroGradient 20s ease infinite;
+}
+
+@-webkit-keyframes HeroGradient {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@-moz-keyframes HeroGradient {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+@keyframes HeroGradient {
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
+}
+
+#gradient-text {
+    -webkit-animation: ColorSwitch 20s ease infinite alternate;
+    -moz-animation: ColorSwitch 20s ease infinite alternate;
+    animation: ColorSwitch 20s ease infinite alternate;
+}
+
+@keyframes ColorSwitch {
+    0% {
+      color: #25358e;
+    }
+    100% {
+      color: #ffffff;
+    }
+  }

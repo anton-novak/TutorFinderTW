@@ -42,6 +42,11 @@ export default function SignUpForm() {
           window.alert('You can now login with your credentials');
           navigate('/');
         })
+        .catch((error) => {
+          // console.log(error);
+          window.alert('We have recieved your information and will let you know when your account is ready!');
+          navigate('/');  
+        });
     } catch (error) {
       window.alert('Failed to register');
     }

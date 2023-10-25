@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import icon from '../assets/icon.png'
+import icon from "../assets/icon.svg";
 import LogInModal from "./log-in";
 
 export default function NavBar() {
@@ -75,10 +75,10 @@ export default function NavBar() {
         </div>
 
         <div className="navbar-end is-flex-wrap-wrap is-align-content-center mr-2">
-          {!loggedIn ? <div id="signUpButton" className="navbar-item button m-1">
+          {!loggedIn ? <div id="signUpButton" className="navbar-item button m-1 is-link has-text-white">
             Sign up
           </div> : null}
-          {!loggedIn ? <div id="loginButton" className="navbar-item button m-1">
+          {!loggedIn ? <div id="loginButton" className="navbar-item button m-1 is-success has-text-white">
             Log in
           </div> : null}
           {loggedIn ?
